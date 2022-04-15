@@ -1,10 +1,10 @@
 
 /* IMPORT */
 
-import {describe} from 'ava-spec';
-import {default as ua2os} from '../dist';
+import {describe} from 'fava';
+import ua2os from '../dist/index.js';
 
-/* UA2OS */
+/* MAIN */
 
 describe ( 'ua2os', it => {
 

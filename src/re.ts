@@ -1,13 +1,9 @@
 
-/* IMPORT */
+/* MAIN */
 
-import {OS} from './types';
+const Re = <const> {
 
-/* RE */
-
-const Re = {
-
-  order: ['windows', 'android', 'linux', 'ios', 'mac'] as OS[],
+  order: ['windows', 'android', 'linux', 'ios', 'mac'],
 
   linux: [
     /(hurd|linux)\s?([\w\.]*)/i,

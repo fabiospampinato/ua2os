@@ -1,18 +1,18 @@
 
 /* IMPORT */
 
-import {OS} from './types';
 import Re from './re';
+import type {OS} from './types';
 
-/* UA2OS */
+/* MAIN */
 
-function ua2os ( ua: string ): OS | undefined {
+const ua2os = ( ua: string ): OS | undefined => {
 
-  if ( typeof ua !== 'string' ) return undefined;
+  if ( typeof ua !== 'string' ) return;
 
   return Re.order.find ( os => Re[os].find ( re => re.test ( ua ) ) );
 
-}
+};
 
 /* EXPORT */
 
