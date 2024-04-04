@@ -17,3 +17,4 @@ const ua2os = ( ua: string ): OS | undefined => {
 /* EXPORT */
 
 export default ua2os;
+export type {OS};
