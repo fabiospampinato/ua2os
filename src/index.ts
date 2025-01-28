@@ -8,8 +8,6 @@ import type {OS} from './types';
 
 const ua2os = ( ua: string ): OS | undefined => {
 
-  if ( typeof ua !== 'string' ) return;
-
   return Re.order.find ( os => Re[os].find ( re => re.test ( ua ) ) );
 
 };
