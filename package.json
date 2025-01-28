@@ -2,6 +2,7 @@
   "name": "ua2os",
   "repository": "github:fabiospampinato/ua2os",
   "description": "Detect the OS from a User-Agent string.",
+  "license": "MIT",
   "version": "2.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -22,8 +23,8 @@
     "detect"
   ],
   "devDependencies": {
-    "fava": "^0.2.1",
-    "tsex": "^3.0.1",
-    "typescript": "^5.1.6"
+    "fava": "^0.3.4",
+    "tsex": "^4.0.2",
+    "typescript": "^5.7.3"
   }
 }
