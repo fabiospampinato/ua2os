@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/ua2os",
   "description": "Detect the OS from a User-Agent string.",
   "license": "MIT",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
